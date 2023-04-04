@@ -5,11 +5,13 @@ enum ROLES {
 }
 
 type User = {
-  username: string,
-  role: ROLES,
-}
+  username: string;
+  role: ROLES;
+};
 
 const exampleUser = {
   username: '@resparzasoto',
-  role: ROLES.ADMIN
-}
+  role: ROLES.ADMIN,
+};
+
+export { ROLES, User };
